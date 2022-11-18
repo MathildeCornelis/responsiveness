@@ -1,19 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 @media screen and (min-width: 1024px) {
     body{
-        background-color: #3A8891;
+        background-color: #0E5E6F;
+        margin-left: 3%;
+        color: aliceblue;
     }
     #small{
         display: none; 
     }
+    #large h1{
+        font-size: 60px;
+    }
+    #large h2{
+        font-size: 35px;
+    }
+    #large p{
+        font-size: 20px;
+    }
     #medium{
         display: none;
+    }
+    #large{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .larger_h1{
+        width: 33%;
+    }
+    .larger_h2{
+        width: 33%;
+    }
+    .larger_p{
+        width: 33%;
     }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
     body{
-        background-color: #e6283e;
+        background-color: #3A8891;
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+        color: aliceblue;
     }
+    #medium{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #medium h1{
+        font-size: 50px;
+    }
+    #medium h2{
+        font-size: 25px;
+    }
+    #medium p{
+        font-size: 15px;
+    }
+    .medium_top{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .medium_h1{
+        flex-grow: 2;
+    }
+    .medium_h2{
+        flex-grow: 1;
+    }
+
     #small{
         display: none; 
     }
@@ -24,7 +82,13 @@
 
 @media screen and (max-width: 479px) {
     body{
-        background-color:#d88a0d;
+        background-color:#F2DEBA;
+        display: flex;
+        align-items: center;
+        margin-left: 7%;
+    }
+    #small{
+        flex-direction: column;
     }
     #medium{
         display: none; 
@@ -32,9 +96,20 @@
     #large{
         display: none; 
     }
+    #small h1{
+        font-size: 40px;
+    }
+    #small h2{
+        font-size: 20px;
+    }
+    #small p{
+        font-size: 15px;
+    }
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 95%;
+    height: 98%;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
 }
