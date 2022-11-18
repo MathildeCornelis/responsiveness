@@ -31,4 +31,4 @@ This repository was created and edited on November 18, 2022. This project is an 
 
 ---
 
-[Link of my Github Pages :](https://mathildecornelis.github.io/responsiveness/).
+[Link of my Github Pages](https://mathildecornelis.github.io/responsiveness/).
