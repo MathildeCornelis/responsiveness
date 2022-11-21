@@ -3,9 +3,7 @@
 In this repository, I experimented with responsive.
 I created a simple page in HTML and CSS that adapts and changes its design according to the size of the screen used. Flexboxes were also used for this exercise.
 
-![](large.png)
-![](medium.png)
-![](small.png)
+![](capture.png)
 
 ---
 
@@ -31,4 +29,4 @@ This repository was created and edited on November 18, 2022. This project is an 
 
 ---
 
-[Link of my Github Pages](https://mathildecornelis.github.io/responsiveness/).
+[Link to my Github Page](https://mathildecornelis.github.io/responsiveness/)
